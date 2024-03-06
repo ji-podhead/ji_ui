@@ -21,6 +21,30 @@
 - debug and have fun (will start 3 terminal windows in code)
 
 # Code Snippets (minimal example)
+**proto file *(protobuffs are in demo folder)***
+```
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.helloworld";
+option java_outer_classname = "HelloWorldProto";
+option objc_class_prefix = "HLW";
+option go_package = "github.com/ji-soft/ji_ui/protos";
+package ji_ui;
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+  rpc SayHelloStreamReply (HelloRequest) returns (stream HelloReply) {}
+}
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
+```
 **React frontend** 
 
 ```
