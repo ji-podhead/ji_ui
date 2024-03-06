@@ -20,7 +20,7 @@
 - **Quickstart** :clone project, open *demo project folder* in code 
 - debug and have fun (will start 3 terminal windows in code)
 
-# Code Snippets
+# Code Snippets (minimal example)
 **React frontend** 
 
 ```
