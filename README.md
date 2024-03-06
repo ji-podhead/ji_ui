@@ -12,6 +12,8 @@
  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" />
 </p>
 
+**clien side (work in progress)** 
+
 ```
 import React, { useState } from 'react';
 import { GreeterClient as Greeter } from './ui_pb_service'; // Stellen Sie sicher, dass der Pfad korrekt ist
