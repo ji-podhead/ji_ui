@@ -1,10 +1,11 @@
 # JI_UI
 
 ----
- **🏃 Fast & Easy UI Framework**: Preconfigured Hot Reload for Quick Preview in Production Stage </small> <br>
- **📁 Command Autogeneration**:   <small> includes a FileWatcher that automatically compiles `.proto` files.  </small>  <br>
- **📝 Template Generation**: generates templates for new gRPC services and message types.  <br>
- **📱 Simplified Deployment**:   after the production stage, the extension can build your React Native applications.
+**Crossplattform UI Framework:** deploy on lots of plattforms via React Native without JSON 
+ **🏃 Fast & Easy production:** Preconfigured Hot Reload for Quick Preview in Production Stage </small> <br>
+ **📁 Command Autogeneration:**   <small> includes a FileWatcher that automatically compiles `.proto` files.  </small>  <br>
+ **📝 Template Generation:** generates templates for new gRPC services and message types.  <br>
+ **📱 Simplified Deployment:**   after the production stage, the extension can build your React Native applications.
  
 ----
 ### <p align="center"> how it works</p>
