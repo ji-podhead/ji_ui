@@ -16,7 +16,10 @@
 
 # Install prototype
 
-- clone project,  extension folder in code => f5 to debug => create new project and initialize trough extension via "f1"
+- **Via Extension**
+	<br> clone project,
+	<br> open extension folder in code => hit f5 to debug => create new project
+	<br> initialize trough extension via "f1"
 - **Quickstart** :clone project, open *demo project folder* in code 
 - debug and have fun (will start 3 terminal windows in code)
 
