@@ -5,9 +5,8 @@
 - **📁 Command Autogeneration**:   <small> includes a FileWatcher that automatically compiles `.proto` files.  </small> 
 - **📝 Template Generation**: generates templates for new gRPC services and message types. 
 - **📱 Simplified Deployment**:   after the production stage, the extension can build your React Native applications. 
-
 <p align="center">
-  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" />
+ <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" />
 </p>
 
 ## 🚀 Advantages of Using Go as a Backend
