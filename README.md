@@ -12,7 +12,7 @@
 - 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
 - 📱 After the production stage, the extension can build your React Native applications.
 - 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
-- 📡 Design and run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM, ensuring efficient and direct communication capabilities.
+- 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM, ensuring efficient and direct communication capabilities.
 
 ---
 ### <p align="center"> how it works</p>
