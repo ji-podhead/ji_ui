@@ -2,7 +2,7 @@
 
 ----
 - **🚀Cross-Platform UI Framework**:
- 	<br> **=>_** Deploy across numerous platforms using React Native.
+ 	<br> **=>_** Deploy to web and across numerous platforms using React (Native).
   	<br> **=>_** Eliminate the need for JSON thanks to gRPC.
 	<br> **=>_** Support multiple programming languages thanks to gRPC => **flexible development environment**
 - **🏃 Fast & Easy Production**: Preconfigured Hot Reload for rapid preview during the production stage.
