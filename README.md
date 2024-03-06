@@ -27,11 +27,11 @@
 	<br> clone project,
 	<br> open extension folder in code => hit f5 to debug => create new project
 	<br> initialize trough extension via "f1"
-- **Quickstart** :clone project, open *demo project folder* in code 
+- **Quickstart** :clone project, open *example project folder* in code 
 <br>  => *debug and have fun (will start 3 terminal windows in code)*
 
 # Code Snippets (minimal example)
-**proto file *(protobuffs are in demo folder)***
+**proto file *(protobuffs are in example project folder)***
 ```
 syntax = "proto3";
 option java_multiple_files = true;
