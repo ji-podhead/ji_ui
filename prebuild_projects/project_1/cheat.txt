@@ -1,0 +1,45 @@
+
+[ji@controllplane kubygo]$ protoc --go_out=. --go-grpc_out=. ui.proto
+[ji@controllplane kubygo]$ protoc --go_out=. --go_opt=paths=source_relative  --go-grpc_out=. --go-grpc_opt=paths=source_relative  ui.proto
+
+
+-- no git package --
+protoc --go_out=. --go_opt=paths=source_relative \
+    --go-grpc_out=. --go-grpc_opt=paths=source_relative \
+    -I. --go_opt=Mui.proto=kubygo/ui2 \
+    ui.proto
+
+-- du musst daraus ein package machen und es initialisieren, dann bei go.mod importieren
+[ji@controllplane protos]$ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative protos/ui.proto
+[ji@controllplane protos]$ go mod init protos
+ji@controllplane protos]$ go mod tidy
+
+--proxy--
+grpcwebproxy --backend_addr=localhost:9090 --run_tls_server=false --use_websockets --port=50051
+
+---
+GOPATH=~/go ; export GOPATH
+git clone https://github.com/improbable-eng/grpc-web.git $GOPATH/src/github.com/improbable-eng/grpc-web
+cd $GOPATH/src/github.com/improbable-eng/grpc-web
+dep ensure # after installing dep
+go install ./go/grpcwebproxy # installs into $GOPATH/bin/grpcwebproxy
+
+
+grpc-web --backend_addr=localhost:50051 --run_tls_server=false --use_websockets --allow_all_origins
+
+$GOPATH/src/github.com/improbable-eng/improbable-eng
+
+protoc -I=./protos --plugin=protoc-gen-grpc-web=$GOPATH/src/github.com/improbable-eng/grpc-web --js_out=import_style=commonjs:./protos --grpc-web_out=import_style=commonjs,mode=grpcwebtext:./protos ./protos/ui.proto
+
+
+--
+js web protos
+[ji@controllplane kubygo]$ 
+PROTOC_GEN_TS_PATH="$(pwd)/frontend/node_modules/ts-protoc-gen/bin/protoc-gen-ts"
+OUT_DIR="$(pwd)/frontend/src"
+PROTO_PATH="$(pwd)/protos/"
+protoc --plugin="protoc-gen-ts=${PROTOC_GEN_TS_PATH}"  --ts_out="service=grpc-node,mode=grpc-js:${OUT_DIR}" --js_out="import_style=commonjs,binary:${OUT_DIR}"  --proto_path="${PROTO_PATH}"   ui.proto
+protoc --plugin="protoc-gen-ts=${PROTOC_GEN_TS_PATH}"   --ts_out="service=grpc-web:${OUT_DIR}" --js_out="import_style=commonjs,binary:${OUT_DIR}"  --proto_path="${PROTO_PATH}"   ui.proto
+
+--ts_out="${OUT_DIR}"
+  
