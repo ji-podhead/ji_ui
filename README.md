@@ -59,8 +59,8 @@ message HelloReply {
 
 ```
 import React, { useState } from 'react';
-import { GreeterClient as Greeter } from './ui_pb_service'; // Stellen Sie sicher, dass der Pfad korrekt ist
-import { HelloRequest,HelloReply } from './ui_pb'; // Stellen Sie sicher, dass der Pfad korrekt ist
+import { GreeterClient as Greeter } from './ui_pb_service';
+import { HelloRequest,HelloReply } from './ui_pb';
 
 const App = () => {
  const [message, setMessage] = useState('noMesg');
@@ -71,13 +71,13 @@ const App = () => {
 };
 const handleSubmit = (event) => {
   event.preventDefault();
-  setName(inputValue); // Aktualisieren Sie den Namen-State mit dem Wert aus dem Eingabefeld
+  setName(inputValue); 
 };
 
  const sendHelloRequest = async () => {
-    const client = new Greeter('http://localhost:8080'); // Ersetzen Sie die URL durch die Ihres Servers
+    const client = new Greeter('http://localhost:8080'); 
     const request = new HelloRequest();
-    request.setName(name); // Setzen Sie den Namen, den Sie senden möchten
+    request.setName(name);
 
     try {
      client.sayHello(request,function(err, response) {
