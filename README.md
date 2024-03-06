@@ -1,8 +1,6 @@
 # JI_UI
 
 ----
-## Key Features
-
 - **🚀Cross-Platform UI Framework**:
  	<br> **=>_** Deploy across numerous platforms using React Native.
   	<br> **=>_** Eliminate the need for JSON thanks to gRPC.
