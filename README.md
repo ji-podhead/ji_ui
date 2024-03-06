@@ -12,6 +12,37 @@
  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" />
 </p>
 
+```
+import React, { useState } from 'react';
+import { GreeterClient as Greeter } from './ui_pb_service'; // Stellen Sie sicher, dass der Pfad korrekt ist
+import { HelloRequest,HelloReply } from './ui_pb'; // Stellen Sie sicher, dass der Pfad korrekt ist
+
+const App = () => {
+ const [message, setMessage] = useState('noMesg');
+ const [name, setName] = useState('not set');
+ const [inputValue, setInputValue] = useState('not set');
+ const handleInputChange = (event) => {
+  setInputValue(event.target.value);
+};
+const handleSubmit = (event) => {
+  event.preventDefault();
+  setName(inputValue); // Aktualisieren Sie den Namen-State mit dem Wert aus dem Eingabefeld
+};
+
+ const sendHelloRequest = async () => {
+    const client = new Greeter('http://localhost:8080'); // Ersetzen Sie die URL durch die Ihres Servers
+    const request = new HelloRequest();
+    request.setName(name); // Setzen Sie den Namen, den Sie senden möchten
+
+    try {
+     client.sayHello(request,function(err, response) {
+        setMessage('MSG from GO BACKEND :'+ response.getMessage());
+     });
+    } catch (error) {
+      console.error('error while sending:', error);
+    }
+ };
+````
 ----
 ### <p align="center"> 🚀 Advantages of Using Go as a Backend </p>
  **Performance and Scalability**: Go is renowned for its high performance and efficiency, especially in handling network requests and resource management. This makes it an ideal choice for backend services that need to handle high loads. <br>
