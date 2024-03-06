@@ -122,7 +122,8 @@ func main() {
 ----
 ### <p align="center"> Motivation </p>
 In my search for a tool that perfectly meets my needs... This led me to start developing a cross-platform UI framework, designed with a React/Web-based frontend and a backend using a higher-level language. This framework is built to make cross-compilation easy, with gRPC playing a key role, ensuring compatibility within containers (if needed) and simplifying the development of microservices outside of cloud environments.
-
+### <p align="center"> <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" />  </p>
+ 
 ### <p align="center"> 🚀 Advantages of Using Go as a Backend </p>
  **Performance and Scalability**: Go is renowned for its high performance and efficiency, especially in handling network requests and resource management. This makes it an ideal choice for backend services that need to handle high loads. <br>
  **Constant Runtime**: Go applications have a constant runtime, meaning they are not affected by the number of concurrent requests. This is crucial for backend services serving a large number of simultaneous users. <br> 
@@ -141,3 +142,4 @@ In my search for a tool that perfectly meets my needs... This led me to start de
 **Language Agnostic**: gRPC is language-agnostic, meaning it can be used with any programming language that supports gRPC, including JavaScript for React applications. This allows for a flexible development environment and makes it easier to integrate with other services or components.  <br>
 **Interoperability**: gRPC is designed to be interoperable, meaning it can work with a wide range of systems and services. This is beneficial for applications that need to integrate with existing systems or services, as it reduces the need for custom integrations.  <br>
 **Security**: gRPC supports transport security with TLS, ensuring that data transmitted between the client and server is encrypted. This is crucial for applications that handle sensitive information. 
+
