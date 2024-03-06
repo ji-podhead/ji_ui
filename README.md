@@ -8,6 +8,10 @@ The ji_ui_vs_code_extension includes a FileWatcher that automatically compiles `
 
 **📱 Simplified Deployment**: After the production stage, your extension can now build React Native applications without the need for a Webproxy. This feature simplifies the deployment process and reduces the need for additional configuration. 
 
+<p align="center">
+  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" />
+</p>
+
 ## 🚀 Advantages of Using Go as a Backend
 - **💪 Performance and Scalability**: Go is renowned for its high performance and efficiency, especially in handling network requests and resource management. This makes it an ideal choice for backend services that need to handle high loads. 
 - **🚀 Constant Runtime**: Go applications have a constant runtime, meaning they are not affected by the number of concurrent requests. This is crucial for backend services serving a large number of simultaneous users. 
