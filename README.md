@@ -1,8 +1,6 @@
 
 
-<p align="center">
- * J I _ U I *
-</p>
+### <p align="center"> * J I _ U I * </p>
 
 ----
 - **🚀Cross-Platform UI Framework**:
@@ -132,8 +130,7 @@ func main() {
  **Excellent Support for Microservices**: Go is excellent for developing microservices, as it is lightweight and supports easy deployment. This is particularly useful for modern, scalable backend architectures. <br>
  **Global Variables and Static Typing**: Go offers global variables and static typing, which can simplify the development and maintenance of backend services. These features can help reduce errors and improve code quality. 
 
-## 🌐 Advantages of Using React with gRPC
-
+### <p align="center">🌐 Advantages of Using React with gRPC</p>
 **Efficient Data Handling**: React is a powerful library for building user interfaces, but when combined with gRPC, it can efficiently handle data in real-time. gRPC's support for streaming and bidirectional communication allows for a seamless data flow between the client and server, enhancing the user experience.  <br>
 **Type Safety**: gRPC uses Protocol Buffers (protobuf) for defining services and message types, which provides strong type safety. This means that the data structures are defined once and used across the client and server, reducing the risk of errors and improving the maintainability of the code.  <br>
 **Performance**: gRPC is known for its high performance, especially in terms of speed and efficiency. It uses HTTP/2 for transport, which allows for multiplexing, lower latency, and header compression. This can lead to faster load times and a smoother user experience in React applications.  <br>
