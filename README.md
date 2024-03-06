@@ -1,6 +1,6 @@
+# JI_UI
+
 ----
-
-
  **🏃 Fast & Easy UI Framework**: Preconfigured Hot Reload for Quick Preview in Production Stage </small> <br>
  **📁 Command Autogeneration**:   <small> includes a FileWatcher that automatically compiles `.proto` files.  </small>  <br>
  **📝 Template Generation**: generates templates for new gRPC services and message types.  <br>
