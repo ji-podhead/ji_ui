@@ -12,7 +12,16 @@
  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" />
 </p>
 
-**clien side (work in progress)** 
+----
+
+# Install
+
+- clone project,  extension folder in code => f5 to debug => create new project and initialize trough extension via "f1"
+- **Quickstart** :clone project, open *demo project folder* in code 
+- debug and have fun (will start 3 terminal windows in code)
+
+# Code Snippets
+**React frontend** 
 
 ```
 import React, { useState } from 'react';
@@ -44,7 +53,37 @@ const handleSubmit = (event) => {
       console.error('error while sending:', error);
     }
  };
-````
+```
+**backend**
+```
+
+// server is used to implement helloworld.GreeterServer.
+type server struct {
+	pb.UnimplementedGreeterServer
+}
+
+// SayHello implements helloworld.GreeterServer
+func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloReply, error) {
+	log.Printf("Received: %v", in.GetName())
+	return &pb.HelloReply{Message: "Hello " + in.GetName()}, nil
+}
+
+func main() {
+	flag.Parse()
+	lis, err := net.Listen("tcp", fmt.Sprintf(":%d", *port))
+	if err != nil {
+		log.Fatalf("failed to listen: %v", err)
+	}
+	s := grpc.NewServer()
+	pb.RegisterGreeterServer(s, &server{})
+	log.Printf("server listening at %v", lis.Addr())
+	if err := s.Serve(lis); err != nil {
+		log.Fatalf("failed to serve: %v", err)
+	}
+}
+```
+
+
 ----
 ### <p align="center"> 🚀 Advantages of Using Go as a Backend </p>
  **Performance and Scalability**: Go is renowned for its high performance and efficiency, especially in handling network requests and resource management. This makes it an ideal choice for backend services that need to handle high loads. <br>
