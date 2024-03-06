@@ -1,6 +1,6 @@
 # ji_ui
 - **🏃 Fast & Easy UI Framework**:
-   <small> Preconfigured Hot Reload for All Components (Frontend and Backend) for Quick Preview in Production Stage <br> (NO ENDLESS BUILD TIMES!).</small>
+   <small> Preconfigured Hot Reload (Frontend and Backend) for Quick Preview in Production Stage </small>
   
 - **📁 Command Autogeneration**:
   > The ji_ui_vs_code_extension includes a FileWatcher that automatically compiles `.proto` files whenever changes are detected. <br> This ensures that your gRPC services are always up-to-date with the latest definitions.
