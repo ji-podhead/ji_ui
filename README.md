@@ -1,5 +1,5 @@
 ----
-### <p align="center"> ji_ui</p>
+
 
  **🏃 Fast & Easy UI Framework**: Preconfigured Hot Reload for Quick Preview in Production Stage </small> <br>
  **📁 Command Autogeneration**:   <small> includes a FileWatcher that automatically compiles `.proto` files.  </small>  <br>
