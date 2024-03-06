@@ -3,7 +3,9 @@
 ----
 ## Key Features
 
-- **🚀Cross-Platform UI Framework**: Deploy across numerous platforms using React Native, eliminating the need for JSON thanks to gRPC.
+- **🚀Cross-Platform UI Framework**:
+ 	<br> **=>** Deploy across numerous platforms using React Native.
+  	<br> **=>** Eliminate the need for JSON thanks to gRPC.
 - **🏃 Fast & Easy Production**: Preconfigured Hot Reload for rapid preview during the production stage.
 - **📁 Command Autogeneration**: Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
 - **📝 Template Generation**: Automatically generates templates for new gRPC services and message types, accelerating development.
