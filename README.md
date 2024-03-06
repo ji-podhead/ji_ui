@@ -119,7 +119,11 @@ func main() {
 ```
 
 
+
 ----
+### <p align="center"> Motivation </p>
+In my search for a tool that perfectly meets my needs... This led me to start developing a cross-platform UI framework, designed with a React/Web-based frontend and a backend using a higher-level language. This framework is built to make cross-compilation easy, with gRPC playing a key role, ensuring compatibility within containers and simplifying the development of microservices outside of cloud environments.
+
 ### <p align="center"> 🚀 Advantages of Using Go as a Backend </p>
  **Performance and Scalability**: Go is renowned for its high performance and efficiency, especially in handling network requests and resource management. This makes it an ideal choice for backend services that need to handle high loads. <br>
  **Constant Runtime**: Go applications have a constant runtime, meaning they are not affected by the number of concurrent requests. This is crucial for backend services serving a large number of simultaneous users. <br> 
