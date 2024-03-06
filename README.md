@@ -1,5 +1,5 @@
 # ji_ui
-> 🏃💨 a fast ui_framework that combines react with go via grpc 
+> 🏃 a fast ui_framework that combines react with go via grpc 💨
 
 **📁 Command Autogeneration**: 
 The ji_ui_vs_code_extension includes a FileWatcher that automatically compiles `.proto` files whenever changes are detected. This ensures that your gRPC services are always up-to-date with the latest definitions.
@@ -7,6 +7,10 @@ The ji_ui_vs_code_extension includes a FileWatcher that automatically compiles `
 **📝 Template Generation**: Streamline the development process by generating templates for new gRPC services and message types. This feature saves time and ensures consistency in your Protofile definitions. 
 
 **📱 Simplified Deployment**: After the production stage, your extension can now build React Native applications without the need for a Webproxy. This feature simplifies the deployment process and reduces the need for additional configuration. 
+
+<p align="center">
+  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" />
+</p>
 
 ## 🚀 Advantages of Using Go as a Backend
 - **💪 Performance and Scalability**: Go is renowned for its high performance and efficiency, especially in handling network requests and resource management. This makes it an ideal choice for backend services that need to handle high loads. 
