@@ -7,11 +7,13 @@
  **📱 Simplified Deployment**:   after the production stage, the extension can build your React Native applications.
  
 ----
+### <p align="center"> how it works</p>
 <p align="center">
  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" />
 </p>
 
-## 🚀 Advantages of Using Go as a Backend
+----
+### <p align="center"> 🚀 Advantages of Using Go as a Backend </p>
  **Performance and Scalability**: Go is renowned for its high performance and efficiency, especially in handling network requests and resource management. This makes it an ideal choice for backend services that need to handle high loads. <br>
  **Constant Runtime**: Go applications have a constant runtime, meaning they are not affected by the number of concurrent requests. This is crucial for backend services serving a large number of simultaneous users. <br> 
  **Security**: Go offers a robust standard library with many security features, including support for HTTPS, prevention of Cross-Site Scripting (XSS), and SQL Injection. This is essential for the security of backend services.  <br>
