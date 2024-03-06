@@ -1,13 +1,17 @@
 # JI_UI
 
 ----
-**Crossplattform UI Framework:** deploy on lots of plattforms via React Native without JSON 
- **🏃 Fast & Easy production:** Preconfigured Hot Reload for Quick Preview in Production Stage </small> <br>
- **📁 Command Autogeneration:**   <small> includes a FileWatcher that automatically compiles `.proto` files.  </small>  <br>
- **📝 Template Generation:** generates templates for new gRPC services and message types.  <br>
- **📱 Simplified Deployment:**   after the production stage, the extension can build your React Native applications.
- 
-----
+## Key Features
+
+- **🚀Cross-Platform UI Framework**: Deploy across numerous platforms using React Native, eliminating the need for JSON thanks to gRPC.
+- **🏃 Fast & Easy Production**: Preconfigured Hot Reload for rapid preview during the production stage.
+- **📁 Command Autogeneration**: Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
+- **📝 Template Generation**: Automatically generates templates for new gRPC services and message types, accelerating development.
+- **📱 Simplified Deployment**: After the production stage, the extension can build your React Native applications, simplifying deployment.
+- **🌐 Cloud Microservices**: Develop microservices before cloud deployment => easy transition to cloud environments when required.
+- **📡 Microcontroller Compatibility**: Design and run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM, ensuring efficient and direct communication capabilities.
+
+---
 ### <p align="center"> how it works</p>
 <p align="center">
  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" />
