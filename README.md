@@ -2,7 +2,7 @@
 - **🏃 Fast & Easy UI Framework**:
    <small> Preconfigured Hot Reload for Quick Preview in Production Stage </small>
   
-- **📁 Command Autogeneration**:   <small> includes a FileWatcher that automatically compiles `.proto` files whenever changes are detected.  </small> 
+- **📁 Command Autogeneration**:   <small> includes a FileWatcher that automatically compiles `.proto` files.  </small> 
 - **📝 Template Generation**: generates templates for new gRPC services and message types. 
 - **📱 Simplified Deployment**:   after the production stage, the extension can build your React Native applications. 
 
