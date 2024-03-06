@@ -1,0 +1,75 @@
+{
+  "name": "slint-node-server",
+  "displayName": "slint-node-server",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "slint-node-server.showSlintWindow",
+        "title": "fresh_js_slint: configure_nodemon"
+      },
+      {
+        "command": "slint-node-server.showSettings",
+        "title": "fresh_js_slint: open_settings"
+      }
+    ],
+    "configuration": [
+      {
+        "title": "fresh_js_slint: use_nodemon",
+        "properties": {
+          "slint-node-server.useNodemon": {
+            "type": "boolean",
+            "default": false,
+            "description": "Ob Nodemon für das Debuggen verwendet werden soll."
+          }
+        }
+      },
+      {
+        "title": "fresh_js_slint: watchpaths",
+        "properties": {
+          "slint-node-server.watchPaths": {
+            "type": "array",
+            "default": [
+              "${workspaceFolder}/ui/*",
+              "${workspaceFolder}/src/*"
+            ],
+            "description": "Pfade, die von Nodemon beobachtet werden sollen."
+          }
+        }
+      },
+      {
+        "title": "fresh_js_slint: watchExtensions",
+        "properties": {
+          "slint-node-server.watchExtensions": {
+            "type": "string",
+            "default": "js,slint,py",
+            "description": "Dateierweiterungen, die von Nodemon beobachtet werden sollen, getrennt durch Kommas."
+          }
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.86.0",
+    "@vscode/test-cli": "^0.0.6",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}
