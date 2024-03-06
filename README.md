@@ -1,5 +1,5 @@
 # ji_ui
-> 🏃💨 a fast ui_framework that combines react with go via grpc 
+> 🏃 a fast ui_framework that combines react with go via grpc 💨
 
 **📁 Command Autogeneration**: 
 The ji_ui_vs_code_extension includes a FileWatcher that automatically compiles `.proto` files whenever changes are detected. This ensures that your gRPC services are always up-to-date with the latest definitions.
