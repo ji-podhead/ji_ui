@@ -14,7 +14,7 @@
 
 ----
 
-# Install
+# Install prototype
 
 - clone project,  extension folder in code => f5 to debug => create new project and initialize trough extension via "f1"
 - **Quickstart** :clone project, open *demo project folder* in code 
