@@ -1,7 +1,11 @@
+<p align="center">
+  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true" />
+</p>
 
-
-### <p align="center"> * J I _ U I * </p>
-
+<p align="center" style="font-size:  1.2em;">
+  <strong> fast, calm and chill  </strong>
+  </p>
+ 
 ----
 - **🚀 Cross-Platform UI Framework**:
  	<br> **=>_** Deploy to web and across numerous platforms using React (Native) and Go backend.
