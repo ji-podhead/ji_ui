@@ -14,6 +14,39 @@
 - 📱 After the production stage, the extension can build your React Native applications.
 - 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
 - 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
+<table>
+ <tr>
+    <th colspan="12">Backends Presets</th>
+ </tr>
+ <tr>
+    <td>✅</td>
+    <td>❌</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+ </tr>
+ <tr>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="Node.js Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://github.com/dotnet/vscode-csharp/blob/main/images/csharpIcon.png?raw=true" alt="C# Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Devicon-ruby-plain-wordmark.svg/512px-Devicon-ruby-plain-wordmark.svg.png?20190106214356" alt="Ruby Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/php/php-icon.svg" alt="PHP Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg" alt="Rust Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/swift/swift-icon.svg" alt="Swift Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin Logo"></div></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://raw.githubusercontent.com/OlegIlyenko/scala-icon/master/scala-icon.png" alt="Scala Logo"></div></td>
+ </tr>
+</table>
 
 ----
 ### <p align="center"> how it works</p>
