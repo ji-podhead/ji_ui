@@ -66,9 +66,7 @@
 
 
 ## How it Works
-<p align="center">
-<img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="400" />
-</p>
+
 <table >
     <tr>
         <td style="width:50%;" valign="top">
@@ -78,14 +76,16 @@
                 <li>By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li>
                 <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications.</li>
                 <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services.</li>
+	<li>The JI_UI API creates a wrapper for your Endpoints, Protofiles  and Scripts that use the Protobuffs.</li>
+	<li>Language specific Presets can be picked and added to your Code via API and Code Extension.</li>
+
             </ul>
-        </td>
-        <td style="width:50%;" valign="top">
-            <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="400" /></td>
         </td>
     </tr>
 </table>
-
+<p align="center">
+<img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /> <img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" height="400" />
+</p>
 ## Api
 - upcomming
 
