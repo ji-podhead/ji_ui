@@ -6,15 +6,6 @@
  	<br> **-** Deploy to web and across numerous platforms using your favourite WebFramework.
   	<br> **-** Eliminate the need for JSON thanks to gRPC.
 	<br> **-** Support multiple programming languages thanks to gRPC 
-- 🏃 Fast & Easy Production: Preconfigured Hot Reload for rapid preview during the production stage.
-- 📁 Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
-- 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
-- 👀 Interacive Webview Panel in VS Code via Extension.
-- 📱 After the production stage, the extension can build your Native applications.
-- 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
-- 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
-
-
 
 ## Preset-Status
 <div align="center">
@@ -47,6 +38,15 @@
 
 </table>
 </div>
+
+- 🏃 Fast & Easy Production: Preconfigured Hot Reload for rapid preview during the production stage.
+- 📁 Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
+- 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
+- 👀 Interacive Webview Panel in VS Code via Extension.
+- 📱 After the production stage, the extension can build your Native applications.
+- 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
+- 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
+
 
 ## Get Started
 <div align="center">
