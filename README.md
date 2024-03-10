@@ -49,7 +49,7 @@
 
 ## How it Works
 <p align="center">
-<img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="300" />
+<img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="400" />
 </p>
 <table >
     <tr>
