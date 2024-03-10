@@ -2,7 +2,7 @@
   <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true" width="150"  />
 </p>
 
-**🚀 Cross-Platform UI Framework**:
+**The Cross-Platform UI Framework**:
  - Deploy to web and across numerous platforms using your favourite WebFramework.
  - Eliminate the need for JSON thanks to gRPC.
  -  Support multiple programming languages (backend/frontend) thanks to gRPC 
@@ -39,7 +39,7 @@
 </table>
 </div>
 
-**Why JI_UI?**
+**Why**
 - 🏃 Fast & Easy Production: Preconfigured Hot Reload for rapid preview during the production stage.
 - 📁 Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
 - 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
