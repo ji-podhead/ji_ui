@@ -53,7 +53,7 @@
  <tr>
 <th colspan="12" align="center">
 	<p align="center">Get Started</p>
-	<table>
+<table>
  <thead>
     <tr>
       <th scope="col">Method</th>
@@ -83,7 +83,7 @@
 </table>
 
 
-<table style="width:100%;">
+<table >
 	 <tr>
     <th colspan="12">how it works</th>
  </tr>
