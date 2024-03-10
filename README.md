@@ -14,36 +14,39 @@
 - 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
 - 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
 <table>
+<tr>
+<th colspan="12">Currently Supported Frontend Webframeworks </th>
+</tr>
+<tr>
+<td colspan="4"><img width ="100" height= "100" object-fit="contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"></div>✅</td>
+<td colspan="4"><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /></div>❌</td>
+<td  colspan="4"><p width="100" height="100">⛩️</p>❌</td>
+
+
+</tr>
+<tr>
+    <th colspan="12"></th>
+ </tr>
  <tr>
     <th colspan="12">Currently Available Backend Presets</th>
  </tr>
+
  <tr>
-    <td>✅</td>
-    <td>❌</td>
-    <td>✅</td>
-    <td>✅</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" /></div><p align="bottom, r">✅</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /> </div><p align="bottom, r">✅</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" /></div><p align="bottom, r">✅</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" /></div><p align="bottom, r">❌</p></td>
+    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" alt="Scala Logo"/></div><p align="bottom, r">❌</p></td>
  </tr>
  <tr>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png"></div></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo"></div></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python Logo"></div></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="Node.js Logo"></div></td>
-    <td><img width ="70" height= "60" object-fit="contain" src="https://github.com/dotnet/vscode-csharp/blob/main/images/csharpIcon.png?raw=true" alt="C# Logo"></div></td>
-    <td><img width ="90" height= "60" object-fit="contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Devicon-ruby-plain-wordmark.svg/512px-Devicon-ruby-plain-wordmark.svg.png?20190106214356" alt="Ruby Logo"></div></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/php/php-icon.svg" alt="PHP Logo"></div></td>
-    <td><img width =70" height= "60" object-fit="contain" src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart Logo"></div></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg" alt="Rust Logo"></div></td>
-    <td><img width ="70" height= "60" object-fit="contain" src="https://www.vectorlogo.zone/logos/swift/swift-icon.svg" alt="Swift Logo"></div></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin Logo"></div></td>
-    <td><img width ="100" height= "60" object-fit="contain" src="https://raw.githubusercontent.com/OlegIlyenko/scala-icon/master/scala-icon.png" alt="Scala Logo"></div></td>
+    <th colspan="12"></th>
  </tr>
 <tr>
    <tr>
