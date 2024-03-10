@@ -78,7 +78,6 @@
                 <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services.</li>
 	<li>The JI_UI API creates a wrapper for your Endpoints, Protofiles  and Scripts that use the Protobuffs.</li>
 	<li>Language specific Presets can be picked and added to your Code via API and Code Extension.</li>
-
             </ul>
         </td>
     </tr>
