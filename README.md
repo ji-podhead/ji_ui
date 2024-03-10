@@ -84,9 +84,29 @@
 
 ### <p align="center"> how it works</p>
 
-<table style="width:100%;"> <tr> <td style="width:10%;" valign="top"> <ul> <li>gRPC enables efficient communication between the client and server. <br> It uses Protobuf for defining services and message types, providing strong type safety and easy integration across different programming languages.</li> <li>A Web Proxy, such as gRPC-Web, allows communication between a web browser and a gRPC server. </li> <li> By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li> <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications. </li> <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services. </li> </ul> </td> <td style="width:60%;" valign="top"> <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /> </td>
-<td style="width:60%;" valign="top"> <img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="500" /> </td>
-</tr> </table>
+<table style="width:100%;">
+    <tr>
+        <td style="width:50%;" valign="top">
+            <ul>
+                <li>gRPC enables efficient communication between the client and server. <br> It uses Protobuf for defining services and message types, providing strong type safety and easy integration across different programming languages.</li>
+                <li>A Web Proxy, such as gRPC-Web, allows communication between a web browser and a gRPC server.</li>
+                <li>By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li>
+                <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications.</li>
+                <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services.</li>
+            </ul>
+        </td>
+        <td style="width:50%;" valign="top">
+            <table>
+                <tr>
+                    <td><img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="250" /></td>
+                </tr>
+                <tr>
+                    <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" height="300" /></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
 
 
 ### <p align="center"> Motivation </p>
