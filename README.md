@@ -45,10 +45,11 @@
 
 </div>
 
+## How it Works
+<p align="center">
+<img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="300" />
+</p>
 <table >
-	 <tr>
-    <th colspan="12">how it works</th>
- </tr>
     <tr>
         <td style="width:50%;" valign="top">
             <ul>
@@ -60,12 +61,13 @@
             </ul>
         </td>
         <td style="width:50%;" valign="top">
-	 <td><img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="600" /></td>
-            <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="600" /></td>
+            <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="400" /></td>
         </td>
     </tr>
 </table>
 
+## Api
+- upcomming
 
 ### <p align="center"> Motivation </p>
 In my search for a tool that perfectly meets my needs... This led me to start developing a cross-platform UI framework, designed with a React/Web-based frontend and a backend using a higher-level language. This framework is built to make cross-compilation easy, with gRPC playing a key role, ensuring compatibility within containers (if needed) and simplifying the development of microservices outside of cloud environments.
