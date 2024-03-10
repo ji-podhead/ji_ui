@@ -42,9 +42,9 @@
     <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/php/php-icon.svg" alt="PHP Logo"></div></td>
     <td><img width =70" height= "60" object-fit="contain" src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart Logo"></div></td>
     <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg" alt="Rust Logo"></div></td>
-    <td><img width ="70" height= "70" object-fit="contain" src="https://www.vectorlogo.zone/logos/swift/swift-icon.svg" alt="Swift Logo"></div></td>
+    <td><img width ="70" height= "60" object-fit="contain" src="https://www.vectorlogo.zone/logos/swift/swift-icon.svg" alt="Swift Logo"></div></td>
     <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin Logo"></div></td>
-    <td><img width ="100" height= "70" object-fit="contain" src="https://raw.githubusercontent.com/OlegIlyenko/scala-icon/master/scala-icon.png" alt="Scala Logo"></div></td>
+    <td><img width ="100" height= "60" object-fit="contain" src="https://raw.githubusercontent.com/OlegIlyenko/scala-icon/master/scala-icon.png" alt="Scala Logo"></div></td>
  </tr>
 </table>
 
