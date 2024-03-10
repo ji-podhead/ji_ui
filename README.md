@@ -82,9 +82,12 @@
 
 </table>
 
-### <p align="center"> how it works</p>
+### <p align="center"> </p>
 
 <table style="width:100%;">
+	 <tr>
+    <th colspan="12">how it works</th>
+ </tr>
     <tr>
         <td style="width:50%;" valign="top">
             <ul>
@@ -96,8 +99,8 @@
             </ul>
         </td>
         <td style="width:50%;" valign="top">
-	 <td><img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /></td>
-            <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="500" /></td>
+	 <td><img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="600" /></td>
+            <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="600" /></td>
         </td>
     </tr>
 </table>
