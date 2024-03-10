@@ -14,7 +14,7 @@
 - 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
 <table>
 <tr>
-<th colspan="10" align="center">Supported Webframeworks</th> <th colspan="2"  align="right">Demo ✅/❌ </th>
+<th colspan="12" align="center">Supported Webframeworks </th>
 </tr>
 <tr>
 <td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></div>✅</td>
