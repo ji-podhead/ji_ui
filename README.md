@@ -30,6 +30,9 @@
     <th colspan="12"></th>
  </tr>
  <tr>
+    <th colspan="12"></th>
+ </tr>
+ <tr>
 	 <th colspan="10" align="center">Available Backends</th> <th colspan="2"  align="right">Preset ✅/❌ </th>
  </tr>
 
@@ -55,14 +58,23 @@
         <th colspan="6">Install</th>
         <th colspan="6">Initialize Project</th>
     </tr>
+     <tr>
+    <th colspan="12"></th>
+ </tr>
     <tr>
         <td colspan="6"><strong>Api via npm</strong><br> upcoming</td>
         <td colspan="6"><strong>Via Install Script</strong><br>upcoming</td>
     </tr>
+     <tr>
+    <th colspan="12"></th>
+ </tr>
     <tr>
         <td colspan="6"><strong>Extension via Code Marketplace</strong> <br> upcoming</td>
         <td colspan="6"><strong>Via Extension</strong><br>install extension <br> initialize through command</td>
     </tr>
+     <tr>
+    <th colspan="12"></th>
+ </tr>
     <tr>
         <td colspan="6"><strong>Extension via Git Clone</strong> <br> clone project <br>open extension folder in code</td>
         <td colspan="6"><strong>Via ExampleProject</strong><br> clone project, open *example project folder* in code<br> debug and have fun (will start 3 terminal windows in code)</td>
