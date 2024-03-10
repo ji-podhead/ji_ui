@@ -3,7 +3,6 @@
 </p>
 
 ----
-### <p align="center"> about</p>
 - **🚀 Cross-Platform UI Framework**:
  	<br> **=>_** Deploy to web and across numerous platforms using React (Native) and Go backend.
   	<br> **=>_** Eliminate the need for JSON thanks to gRPC.
@@ -70,14 +69,6 @@
 ### <p align="center"> how it works</p>
 
 <table style="width:100%;"> <tr> <td style="width:10%;" valign="top"> <ul> <li>gRPC enables efficient communication between the client and server. <br> It uses Protobuf for defining services and message types, providing strong type safety and easy integration across different programming languages.</li> <li>A Web Proxy, such as gRPC-Web, allows communication between a web browser and a gRPC server. </li> <li> By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li> <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications. </li> <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services. </li> </ul> </td> <td style="width:60%;" valign="top"> <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /> </td> </tr> </table>
-
-----
-| Install | Initialize Project|
-|---------|------------|
-| **Api via npm**<br> upcoming | **Via Install Script**<br>upcoming |
-| **Extension via  Code Marketplace** <br> upcoming   	|	**Via Extension**<br>install extension <br>  initialize through  command |
-|	**Extension via  Git Clone** <br> clone project <br>open extension folder in code	| **Via ExampleProject**<br> clone project, open *example project folder* in code<br> debug and have fun (will start 3 terminal windows in code) |
-
 
 ----
 # Why 
