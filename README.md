@@ -17,34 +17,33 @@
 
 
 ## Preset-Status
-<p align="center">
-<center>
-
+<div align="center">
+	
 | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /> | ⛩️ | 
 |:---|:---|---|---:|---:|---:|
 | ✅ |  ❌ | ❌ | ❌ | ❌ | ❌ |
 
- </center>
-</p>
+</div>
 
 
-<center>
+<div align="center">
 	
 | ![Go](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg) | ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg) | ![Node.js](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg) | ![Java](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg) | ![C#](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg) | ![Ruby](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg) | ![PHP](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg) | ![Dart](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg) | ![Rust](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg) | ![Swift](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg) | ![Kotlin](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg) | ![Scala](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-</center>
+
+</div>
 
 ## Get Started
-<center>
+<div align="center">
 	
 | Method | API | Extension | Project |
 |-----------------|--------------|--------------------|------------------|
 | Quickstart | npm (upcoming) | VS Code Marketplace (upcoming) | Initialize via Extension |
 | Git Pull | clone and copy Api Folder | clone and copy Extension Folder | clone and copy ExampleProject |
 
-</center>
+</div>
 
 <table >
 	 <tr>
