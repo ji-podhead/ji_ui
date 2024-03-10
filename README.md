@@ -96,14 +96,8 @@
             </ul>
         </td>
         <td style="width:50%;" valign="top">
-            <table>
-                <tr>
-                    <td><img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="250" /></td>
-                </tr>
-                <tr>
-                    <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" height="300" /></td>
-                </tr>
-            </table>
+	 <td><img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /></td>
+            <td><img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="500" /></td>
         </td>
     </tr>
 </table>
