@@ -4,9 +4,9 @@
 </p>
 
 - **🚀 Cross-Platform UI Framework**:
- 	<br> **=>_** Deploy to web and across numerous platforms using your favourite WebFramework.
-  	<br> **=>_** Eliminate the need for JSON thanks to gRPC.
-	<br> **=>_** Support multiple programming languages thanks to gRPC => **flexible development environment**
+ 	<br> **-** Deploy to web and across numerous platforms using your favourite WebFramework.
+  	<br> **-** Eliminate the need for JSON thanks to gRPC.
+	<br> **-** Support multiple programming languages thanks to gRPC => **flexible development environment**
 - **🏃 Fast & Easy Production**: Preconfigured Hot Reload for rapid preview during the production stage.
 - 📁 Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
 - 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
