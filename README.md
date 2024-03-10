@@ -28,11 +28,28 @@
 
 <div align="center">
 	
-| ![Go](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg ) | ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg) | ![Node.js](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg) | ![Java](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg) | ![C#](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg) | ![Ruby](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg) | ![PHP](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg) | ![Dart](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg) | ![Rust](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg) | ![Swift](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg) | ![Kotlin](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg) | ![Scala](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg) |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-
+<table>
+ <tr>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" /></td>
+ </tr>
+ <tr>
+    <td>✅</td>
+	    <td>✅</td>
+		    <td>✅</td>
+			    <td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td>
+ </tr>
+</table>
 </div>
 
 ## Get Started
