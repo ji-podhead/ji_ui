@@ -77,7 +77,7 @@
 <table style="width:100%;"> <tr> <td style="width:10%;" valign="top"> <ul> <li>gRPC enables efficient communication between the client and server. <br> It uses Protobuf for defining services and message types, providing strong type safety and easy integration across different programming languages.</li> <li>A Web Proxy, such as gRPC-Web, allows communication between a web browser and a gRPC server. </li> <li> By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li> <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications. </li> <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services. </li> </ul> </td> <td style="width:60%;" valign="top"> <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /> </td> </tr> </table>
 
 ----
-# Why 
+
 
 ### <p align="center"> Motivation </p>
 In my search for a tool that perfectly meets my needs... This led me to start developing a cross-platform UI framework, designed with a React/Web-based frontend and a backend using a higher-level language. This framework is built to make cross-compilation easy, with gRPC playing a key role, ensuring compatibility within containers (if needed) and simplifying the development of microservices outside of cloud environments.
