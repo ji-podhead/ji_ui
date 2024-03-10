@@ -23,29 +23,10 @@
 
 </center>
 
- <table>
- <tr>
-	 <th colspan="10" align="center">Available Backends</th> <th colspan="2"  align="right">Preset ✅/❌ </th>
- </tr>
+| ![Go](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg) | ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg) | ![Node.js](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg) | ![Java](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg) | ![C#](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg) | ![Ruby](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg) | ![PHP](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg) | ![Dart](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg) | ![Rust](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg) | ![Swift](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg) | ![Kotlin](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg) | ![Scala](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
- <tr>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" /></div><p align="bottom, r">✅</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /> </div><p align="bottom, r">✅</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" /></div><p align="bottom, r">✅</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" /></div><p align="bottom, r">❌</p></td>
-    <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" alt="Scala Logo"/></div><p align="bottom, r">❌</p></td>
- </tr>
- <tr>
-</th>
-</tr>
-</table>
 
 ## Get Started
 <center>
