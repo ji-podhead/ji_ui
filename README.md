@@ -116,9 +116,56 @@ func main() {
 	}
 }
 ```
+---
+### <p align="center"> Database_Schema </p>
+```
+JI_UI
+|
+|-- Database_Schema
+|       |
+|       |-- ProtoFile
+|       |   |-- Name
+|       |   |-- Index
+|       |   |-- ProtoFilePath
+|       |   |-- Message
+|       |   |   |-- Content
+|       |   |   |-- Lang
+|       |   |   |-- Parent
+|       |   |
+|       |   |-- Enum
+|       |   |   |-- Content
+|       |   |   |-- Lang
+|       |   |   |-- Parent
+|       |
+|       |-- Endpoint 
+|       |   |-- Name
+|       |   |-- Index
+|       |   |-- EndpointPath
+|       |   |-- Protofiles
+|       |   |-- ProtobuffFiles
+|       |       |-- ProtoFilePath
+|       |       |-- ProtobuffFilePath
+|       |       |-- Clients
+|       |       |-- Requests
+|       |       |-- Callbacks
+|       |       |-- Streams
+|       |
+|       |-- ProtobuffUser
+|       |   |
+|       |   |-- ProtobuffUserPath
+|       |   |-- ProtobuffUserComponent
+|       |        |-- type
+|       |        |-- parent
+|       |        |-- line
+|       |        |-- content
+|       |
+|       |-- ProtobuffUserComponentPreset
+|       |    |
+|       |    |-- type
+|       |    |-- lang
+|       |    |-- preset
 
-
-
+```
 ----
 ### <p align="center"> Motivation </p>
 In my search for a tool that perfectly meets my needs... This led me to start developing a cross-platform UI framework, designed with a React/Web-based frontend and a backend using a higher-level language. This framework is built to make cross-compilation easy, with gRPC playing a key role, ensuring compatibility within containers (if needed) and simplifying the development of microservices outside of cloud environments.
