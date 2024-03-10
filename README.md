@@ -46,6 +46,24 @@
     <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin Logo"></div></td>
     <td><img width ="100" height= "60" object-fit="contain" src="https://raw.githubusercontent.com/OlegIlyenko/scala-icon/master/scala-icon.png" alt="Scala Logo"></div></td>
  </tr>
+<tr>
+   <tr>
+        <th colspan="6">Install</th>
+        <th colspan="6">Initialize Project</th>
+    </tr>
+    <tr>
+        <td colspan="6"><strong>Api via npm</strong><br> upcoming</td>
+        <td colspan="6"><strong>Via Install Script</strong><br>upcoming</td>
+    </tr>
+    <tr>
+        <td colspan="6"><strong>Extension via Code Marketplace</strong> <br> upcoming</td>
+        <td colspan="6"><strong>Via Extension</strong><br>install extension <br> initialize through command</td>
+    </tr>
+    <tr>
+        <td colspan="6"><strong>Extension via Git Clone</strong> <br> clone project <br>open extension folder in code</td>
+        <td colspan="6"><strong>Via ExampleProject</strong><br> clone project, open *example project folder* in code<br> debug and have fun (will start 3 terminal windows in code)</td>
+    </tr>
+
 </table>
 
 ----
