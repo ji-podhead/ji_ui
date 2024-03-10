@@ -2,12 +2,12 @@
   <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true" width="150"  />
 </p>
 
-- **🚀 Cross-Platform UI Framework**:
- 	<br> **-** Deploy to web and across numerous platforms using your favourite WebFramework.
-  	<br> **-** Eliminate the need for JSON thanks to gRPC.
-	<br> **-** Support multiple programming languages thanks to gRPC 
+**🚀 Cross-Platform UI Framework**:
+ - Deploy to web and across numerous platforms using your favourite WebFramework.
+ - Eliminate the need for JSON thanks to gRPC.
+ -  Support multiple programming languages thanks to gRPC 
 
-## Preset-Status
+**Preset Status**:
 <div align="center">
 	
 | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />  ✅ |<img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />  ❌  | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />  ❌  | ⛩️   ❌  | 
@@ -39,6 +39,7 @@
 </table>
 </div>
 
+**Why JI_UI?**
 - 🏃 Fast & Easy Production: Preconfigured Hot Reload for rapid preview during the production stage.
 - 📁 Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
 - 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
