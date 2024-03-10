@@ -3,6 +3,7 @@
 </p>
 
 ----
+### <p align="center"> about</p>
 - **🚀 Cross-Platform UI Framework**:
  	<br> **=>_** Deploy to web and across numerous platforms using React (Native) and Go backend.
   	<br> **=>_** Eliminate the need for JSON thanks to gRPC.
