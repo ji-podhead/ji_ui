@@ -1,9 +1,7 @@
-----
 <p align="center">
-  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true" width="100"  />
+  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true" width="150"  />
 </p>
 
-----
 - **🚀 Cross-Platform UI Framework**:
  	<br> **=>_** Deploy to web and across numerous platforms using React (Native) and Go backend.
   	<br> **=>_** Eliminate the need for JSON thanks to gRPC.
