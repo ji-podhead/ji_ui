@@ -12,19 +12,11 @@
 - 📱 After the production stage, the extension can build your Native applications.
 - 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
 - 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
-<table>
-<tr>
-<th colspan="12" align="center">Supported Webframeworks </th>
-</tr>
-<tr>
-<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></div>✅</td>
-<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /></div>❌</td>
-<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" /></div>❌</td>
-<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /></div>❌</td>
-<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /></div>❌</td>
-<td  colspan="2"><p align="bottom">❌</p><p align="center" width="100" height="100" font-size: "100px">⛩️</p></td>
-</tr>
- </table>
+# Frontend-Preset-Status
+| |  | | | | |
+|-----------------------------|--------------------|------------------|------------------|------------------|------------------|
+| <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />✅ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /> ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />❌ | ⛩️ ❌ |
+
  <table>
  <tr>
 	 <th colspan="10" align="center">Available Backends</th> <th colspan="2"  align="right">Preset ✅/❌ </th>
