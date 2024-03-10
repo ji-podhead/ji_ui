@@ -75,56 +75,10 @@
 ----
 ### <p align="center"> how it works</p>
 
-<table style="width:100%;"> <tr> <td style="width:10%;" valign="top"> <ul> <li>gRPC enables efficient communication between the client and server. <br> It uses Protobuf for defining services and message types, providing strong type safety and easy integration across different programming languages.</li> <li>A Web Proxy, such as gRPC-Web, allows communication between a web browser and a gRPC server. </li> <li> By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li> <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications. </li> <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services. </li> </ul> </td> <td style="width:60%;" valign="top"> <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /> </td> </tr> </table>
+<table style="width:100%;"> <tr> <td style="width:10%;" valign="top"> <ul> <li>gRPC enables efficient communication between the client and server. <br> It uses Protobuf for defining services and message types, providing strong type safety and easy integration across different programming languages.</li> <li>A Web Proxy, such as gRPC-Web, allows communication between a web browser and a gRPC server. </li> <li> By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li> <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications. </li> <li>The Go server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services. </li> </ul> </td> <td style="width:60%;" valign="top"> <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /> </td>
+<td style="width:60%;" valign="top"> <img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" width="500" /> </td>
+</tr> </table>
 
-```
-JI_UI
-|
-|-- Database_Schema
-|       |
-|       |-- ProtoFile
-|       |   |-- Name
-|       |   |-- Index
-|       |   |-- ProtoFilePath
-|       |   |-- Message
-|       |   |   |-- Content
-|       |   |   |-- Lang
-|       |   |   |-- Parent
-|       |   |
-|       |   |-- Enum
-|       |   |   |-- Content
-|       |   |   |-- Lang
-|       |   |   |-- Parent
-|       |
-|       |-- Endpoint 
-|       |   |-- Name
-|       |   |-- Index
-|       |   |-- EndpointPath
-|       |   |-- Protofiles
-|       |   |-- ProtobuffFiles
-|       |       |-- ProtoFilePath
-|       |       |-- ProtobuffFilePath
-|       |       |-- Clients
-|       |       |-- Requests
-|       |       |-- Callbacks
-|       |       |-- Streams
-|       |
-|       |-- ProtobuffUser
-|       |   |
-|       |   |-- ProtobuffUserPath
-|       |   |-- ProtobuffUserComponent
-|       |        |-- type
-|       |        |-- parent
-|       |        |-- line
-|       |        |-- content
-|       |
-|       |-- ProtobuffUserComponentPreset
-|       |    |
-|       |    |-- type
-|       |    |-- lang
-|       |    |-- preset
-
-```
 ---
 
 ### <p align="center"> Motivation </p>
@@ -240,4 +194,53 @@ func main() {
 		log.Fatalf("failed to serve: %v", err)
 	}
 }
+```
+**Api Schema** 
+```
+JI_UI
+|
+|-- Database_Schema
+|       |
+|       |-- ProtoFile
+|       |   |-- Name
+|       |   |-- Index
+|       |   |-- ProtoFilePath
+|       |   |-- Message
+|       |   |   |-- Content
+|       |   |   |-- Lang
+|       |   |   |-- Parent
+|       |   |
+|       |   |-- Enum
+|       |   |   |-- Content
+|       |   |   |-- Lang
+|       |   |   |-- Parent
+|       |
+|       |-- Endpoint 
+|       |   |-- Name
+|       |   |-- Index
+|       |   |-- EndpointPath
+|       |   |-- Protofiles
+|       |   |-- ProtobuffFiles
+|       |       |-- ProtoFilePath
+|       |       |-- ProtobuffFilePath
+|       |       |-- Clients
+|       |       |-- Requests
+|       |       |-- Callbacks
+|       |       |-- Streams
+|       |
+|       |-- ProtobuffUser
+|       |   |
+|       |   |-- ProtobuffUserPath
+|       |   |-- ProtobuffUserComponent
+|       |        |-- type
+|       |        |-- parent
+|       |        |-- line
+|       |        |-- content
+|       |
+|       |-- ProtobuffUserComponentPreset
+|       |    |
+|       |    |-- type
+|       |    |-- lang
+|       |    |-- preset
+
 ```
