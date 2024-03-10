@@ -165,7 +165,7 @@ const handleSubmit = (event) => {
     }
  };
 ```
-**backend**
+**GO backend**
 ```
 
 // server is used to implement helloworld.GreeterServer.
