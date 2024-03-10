@@ -52,7 +52,7 @@
  </tr>
  <tr>
 <th colspan="12" align="center">
-	Get Started
+	<p align="center">Get Started</p>
 	<table>
  <thead>
     <tr>
