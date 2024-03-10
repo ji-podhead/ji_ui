@@ -17,11 +17,11 @@
 <th colspan="10" align="center">Supported Frontend Webframeworks</th> <th colspan="2"  align="right">Demo ✅/❌ </th>
 </tr>
 <tr>
-<td colspan="2"><img width ="100" height= "50" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></div>✅</td>
-<td colspan="2"><img width ="100" height= "50" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /></div>❌</td>
-<td colspan="2"><img width ="100" height= "50" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" /></div>❌</td>
-<td colspan="2"><img width ="100" height= "50" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /></div>❌</td>
-<td colspan="2"><img width ="100" height= "50" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /></div>❌</td>
+<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></div>✅</td>
+<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /></div>❌</td>
+<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" /></div>❌</td>
+<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /></div>❌</td>
+<td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /></div>❌</td>
 
 <td  colspan="2"><p width="100" height="100" font-size: "100px">⛩️</p>❌</td>
 	
