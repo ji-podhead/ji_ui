@@ -37,7 +37,7 @@
     <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo"></div></td>
     <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python Logo"></div></td>
     <td><img width ="100" height= "100" object-fit="contain" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="Node.js Logo"></div></td>
-    <td><img width ="70" height= "70" object-fit="contain" src="https://github.com/dotnet/vscode-csharp/blob/main/images/csharpIcon.png?raw=true" alt="C# Logo"></div></td>
+    <td><img width ="70" height= "60" object-fit="contain" src="https://github.com/dotnet/vscode-csharp/blob/main/images/csharpIcon.png?raw=true" alt="C# Logo"></div></td>
     <td><img width ="90" height= "70" object-fit="contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Devicon-ruby-plain-wordmark.svg/512px-Devicon-ruby-plain-wordmark.svg.png?20190106214356" alt="Ruby Logo"></div></td>
     <td><img width ="100" height= "100" object-fit="contain" src="https://www.vectorlogo.zone/logos/php/php-icon.svg" alt="PHP Logo"></div></td>
     <td><img width =70" height= "70" object-fit="contain" src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart Logo"></div></td>
