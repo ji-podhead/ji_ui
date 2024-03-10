@@ -51,39 +51,37 @@
     <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" alt="Scala Logo"/></div><p align="bottom, r">❌</p></td>
  </tr>
  <tr>
-    <th colspan="12">
-	    <table>
-  </caption>
-  <thead>
+<th colspan="12" align="center">
+	Get Started
+	<table style="width:100%">
+ <thead>
     <tr>
       <th scope="col">Method</th>
       <th scope="col">Api</th>
       <th scope="col">Extension</th>
       <th scope="col">Project</th>
     </tr>
-  </thead>
-  <tbody>
+ </thead>
+ <tbody>
     <tr>
       <th scope="col">Quickstart</th>
       <td>npm (upcoming)</td>
-      <td>VS Code Marketplace (upcoming)</td></td>
+      <td>VS Code Marketplace (upcoming)</td>
       <td>Initialize via Extension</td>
-</tr>
+    </tr>
     <tr>
       <th scope="col">Git Pull</th>
       <td>clone and copy Api Folder</td>
       <td>clone and copy Extension Folder</td>
       <td>clone and copy ExampleProject</td>
+    </tr>
+ </tbody>
+</table>
+
+</th>
 </tr>
-</tbody>
-</table>
-    </th>
- </tr>
-
-
 </table>
 
-### <p align="center"> </p>
 
 <table style="width:100%;">
 	 <tr>
