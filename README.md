@@ -23,8 +23,8 @@
 ----
 | Install | Initialize Project|
 |---------|------------|
-| **Api via npm**<br> upcoming | **Install Script**<br>upcoming |
-| **Extension via  Code Marketplace** <br> upcoming   	|	**Via Extension**<br>install extension <br>  initialize through settings <br> hit  "f1" and run command |
+| **Api via npm**<br> upcoming | **Via Install Script**<br>upcoming |
+| **Extension via  Code Marketplace** <br> upcoming   	|	**Via Extension**<br>install extension <br>  initialize through  command |
 |	**Extension via  Git Clone** <br> clone project <br>open extension folder in code	| **Via ExampleProject**<br> clone project, open *example project folder* in code<br> debug and have fun (will start 3 terminal windows in code) |
 
 
