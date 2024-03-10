@@ -20,9 +20,10 @@
 ## Preset-Status
 <div align="center">
 	
-| <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /> | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /> | ⛩️ | 
+| <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />  ✅ |<img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />  ❌  | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />  ❌  | ⛩️   ❌  | 
 |:---|:---|---|---:|---:|---:|
-| ✅ |  ❌ | ❌ | ❌ | ❌ | ❌ |
+
+
 
 </div>
 
@@ -31,25 +32,20 @@
 	
 <table>
  <tr>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" /></td>
-    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" /></td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" />✅</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />✅</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />✅</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain-wordmark.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" />❌</td>
+    <td><img style="width: 30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" />❌</td>
  </tr>
- <tr>
-    <td>✅</td>
-	    <td>✅</td>
-		    <td>✅</td>
-			    <td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td><td>❌ </td>
- </tr>
+
 </table>
 </div>
 
