@@ -75,7 +75,7 @@
 - upcomming
 
 
-### <p align="center"> Motivation </p>
+## Motivation 
 In my search for a tool that perfectly meets my needs... This led me to start developing a cross-platform UI framework, designed with a React/Web-based frontend and a backend using a higher-level language. This framework is built to make cross-compilation easy, with gRPC playing a key role, ensuring compatibility within containers (if needed) and simplifying the development of microservices outside of cloud environments.
 
  
