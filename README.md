@@ -23,7 +23,7 @@
 <td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /></div>❌</td>
 <td colspan="2"><img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" /></div>❌</td>
 
-<td  colspan="2"><p width="100" height="100" font-size: "100px">⛩️</p>❌</td>
+<td  colspan="2"><p align="center" width="100" height="100" font-size: "100px">⛩️</p><p align="Right">❌</p></td>
 	
 </tr>
 <tr>
