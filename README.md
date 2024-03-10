@@ -11,7 +11,7 @@
 - **🏃 Fast & Easy Production**: Preconfigured Hot Reload for rapid preview during the production stage.
 - 📁 Includes a FileWatcher that automatically compiles `.proto` files, streamlining development.
 - 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
-- 📱 After the production stage, the extension can build your React Native applications.
+- 📱 After the production stage, the extension can build your Native applications.
 - 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
 - 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
 <table>
