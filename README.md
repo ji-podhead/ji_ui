@@ -51,34 +51,35 @@
     <td><img width ="100" height= "100" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" alt="Scala Logo"/></div><p align="bottom, r">❌</p></td>
  </tr>
  <tr>
-    <th colspan="12"></th>
- </tr>
-<tr>
-   <tr>
-        <th colspan="6">Install</th>
-        <th colspan="6">Initialize Project</th>
-    </tr>
-     <tr>
-    <th colspan="12"></th>
- </tr>
+    <th colspan="12">
+	    <table>
+  </caption>
+  <thead>
     <tr>
-        <td colspan="6"><strong>Api via npm</strong><br> upcoming</td>
-        <td colspan="6"><strong>Via Install Script</strong><br>upcoming</td>
+      <th scope="col">Method</th>
+      <th scope="col">Api</th>
+      <th scope="col">Extension</th>
+      <th scope="col">Project</th>
     </tr>
-     <tr>
-    <th colspan="12"></th>
- </tr>
+  </thead>
+  <tbody>
     <tr>
-        <td colspan="6"><strong>Extension via Code Marketplace</strong> <br> upcoming</td>
-        <td colspan="6"><strong>Via Extension</strong><br>install extension <br> initialize through command</td>
-    </tr>
-     <tr>
-    <th colspan="12"></th>
- </tr>
+      <th scope="col">Quickstart</th>
+      <td>npm (upcoming)</td>
+      <td>VS Code Marketplace (upcoming)</td></td>
+      <td>Initialize via Extension</td>
+</tr>
     <tr>
-        <td colspan="6"><strong>Extension via Git Clone</strong> <br> clone project <br>open extension folder in code</td>
-        <td colspan="6"><strong>Via ExampleProject</strong><br> clone project, open *example project folder* in code<br> debug and have fun (will start 3 terminal windows in code)</td>
-    </tr>
+      <th scope="col">Git Pull</th>
+      <td>clone and copy Api Folder</td>
+      <td>clone and copy Extension Folder</td>
+      <td>clone and copy ExampleProject</td>
+</tr>
+</tbody>
+</table>
+    </th>
+ </tr>
+
 
 </table>
 
