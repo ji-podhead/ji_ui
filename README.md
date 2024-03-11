@@ -5,7 +5,7 @@
 **The Cross-Platform UI Framework**:
  - Deploy to web and across numerous platforms using your favourite WebFramework.
  - Eliminate the need for JSON thanks to gRPC.
- -  Support multiple programming languages (backend/frontend) thanks to gRPC 
+ -  Support multiple programming languages (in backend, or frontend) thanks to gRPC 
 
 **Preset Status**:
 <div align="center">
