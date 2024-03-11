@@ -58,7 +58,7 @@
 | Git Pull | clone and copy Api Folder | clone and copy Extension Folder | clone and copy ExampleProject |
 
 </div>
-
+<link rel="stylesheet" type="text/css" href="https://github.com/legoman8304/legoman8304.github.io/blob/master/style.css">
 
 
 ## How it Works
@@ -72,9 +72,9 @@
                 <li>By using gRPC and Protobuf, you can write services and applications in various programming languages. This allows for cross-platform compilation, as gRPC implementations are available for each language.</li>
                 <li>By using a gRPC-Web proxy, you can directly integrate your gRPC services into web applications.</li>
                 <li>A non web-Endpoint server serves as the backend for your application. It can host gRPC services and act as an interface to other backend services.</li>
-	<li>The JI_UI API creates a wrapper for your Endpoints, Protofiles  and Scripts that use the Protobuffs.</li>
-	<li>Language specific Presets can be picked and added to your Code via API and Code Extension.</li>
-            </ul>
+	<li>The JI_UI API creates a wrapper for your Endpoints, Protofiles  and Scripts that use the Protobuffs. Protobuffs for many available languages are getting created using my <a href="https://example.com](https://github.com/ji-podhead/protoc-helper">protoc-repo</a>. it uses  compiled protoc binary with javascript</li>
+	<li>Language specific Presets can be picked and added to your Code via API and Code Extension.</li>    
+            </ul><link rel="stylesheet" type="text/css" href="https://github.com/legoman8304/legoman8304.github.io/blob/master/style.css">
         </td>
     </tr>
 </table>
