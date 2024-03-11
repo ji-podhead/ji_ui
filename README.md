@@ -10,7 +10,7 @@
 **Preset Status**:
 <div align="center">
 	
-| <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />  ✅ |<img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />  ❌  | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />  ❌  | ⛩️   ❌  | 
+| <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />  ✅ |<img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />  ❌  | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />  ❌ | <img width ="100" height= "30" object-fit="contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />  ❌  |  <img width ="100" height= "30" object-fit="contain" src="https://raw.githubusercontent.com/ji-podhead/ji_ui/205d7cf5d87888427b5bd1500db28fd3356cf028/images/aaa.svg" />   ❌  | 
 |:---|:---|---|---:|---:|---:|
 
 
