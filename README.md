@@ -93,7 +93,7 @@ graph TD;
     
     JI_UI --> go_backend;
     JI_UI --> protobuffctl;
-    protobuffctl --> ExtensionAPI;
+    protobuffctl --> JI_UI;
     JI_UI --> Frontend;
     JI_UI --> OtherBackend;
     
