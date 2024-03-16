@@ -83,7 +83,7 @@
 graph TD;
     Frontend["🌐 Frontend (React, Vue, Angular, etc.)"] --> go_backend;
     Frontend -->|webView| webView[Browser]
-    go_backend -->|nativeBuild| nativeBuild[AppWindow]
+    go_backend -->|nativeBuild| nativeBuild[App]
 	nativeBuild--> Renderer;
 	webView-->Renderer;
     Frontend-->nativeBuild;
