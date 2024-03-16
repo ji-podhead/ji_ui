@@ -45,6 +45,7 @@
 - 📝 Automatically generates templates for new gRPC services and message types, accelerating development.
 - 👀 Interacive Webview Panel in VS Code via Extension.
 - 📱 After the production stage, the extension can build your Native applications.
+- 🚀 Automatically implements childProcess in your native app to communicate with your backends without the need for servers  
 - 🌐 Develop microservices before cloud deployment => easy transition to cloud environments when required.
 - 📡 Run UI applications directly on microcontrollers, such as Arduino, without consuming excessive RAM.
 
