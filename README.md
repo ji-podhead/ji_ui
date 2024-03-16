@@ -89,6 +89,7 @@ graph TD;
     go_backend --> OtherBackend2;
     ExtensionAPI --> go_backend;
     ExtensionAPI --> protobuffctl;
+    protobuffctl --> ExtensionAPI;
     ExtensionAPI --> Frontend;
     ExtensionAPI --> OtherBackend1;
     ExtensionAPI --> OtherBackend2;
@@ -98,7 +99,6 @@ graph TD;
     end
     subgraph protobuffctl [🏢 protobuffctl]
         Api;
-        B;
         FileWatcher;
         ComponentRegistry;
         FileWatcher;
