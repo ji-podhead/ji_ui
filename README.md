@@ -83,32 +83,37 @@
 ```mermaid
 graph TD;
     Frontend["🌐 Frontend (React, Vue, Angular, etc.)"] --> go_backend;
-    Frontend -->|webView| webView[Browser]
-    go_backend -->|nativeBuild| nativeBuild[App]
+    Frontend -->|webView| webView[🖥️ Browser]
+    go_backend -->|nativeBuild| nativeBuild[📲 App]
 	nativeBuild--> Renderer;
 	webView-->Renderer;
     Frontend-->nativeBuild;
     nativeBuild-->OtherBackend;
     go_backend --> OtherBackend;
     
-    ExtensionAPI --> go_backend;
-    ExtensionAPI --> protobuffctl;
+    JI_UI --> go_backend;
+    JI_UI --> protobuffctl;
     protobuffctl --> ExtensionAPI;
-    ExtensionAPI --> Frontend;
-    ExtensionAPI --> OtherBackend;
+    JI_UI --> Frontend;
+    JI_UI --> OtherBackend;
     
     subgraph go_backend [💙 go_backend]
         gRPC_webProxy --> gRPC_Server;
         gRPC_Server;
     end
-    subgraph protobuffctl [🏢 protobuffctl]
+	subgraph JI_UI [🕹️ JI_UI]
+Extension;
+API;
+end
+
+    subgraph protobuffctl [🗄️ protobuffctl]
         Api;
         FileWatcher;
         ComponentRegistry;
         FileWatcher;
     end
 
-    style ExtensionAPI fill:#f9d71c,stroke:#333,stroke-width:2px
+    style JI_UI fill:#f9d71c,stroke:#333,stroke-width:2px
     style go_backend fill:#039dfc,stroke:#333,stroke-width:2px
     style protobuffctl fill:#03fc9d,stroke:#333,stroke-width:2px
 
