@@ -85,13 +85,13 @@ graph TD;
     Frontend["🌐 Frontend (React, Vue, Angular, etc.)"] --> go_backend;
     Frontend -->|webView| webView[🖥️ Browser]
 Frontend -->|webView| code[⚙️ VS-Code]
-    go_backend -->|nativeBuild| nativeBuild[📲 App]
+    Frontend -->|nativeBuild| nativeBuild[📲 App]
 	nativeBuild--> Renderer;
 	webView-->Renderer;
-    Frontend-->nativeBuild;
-    nativeBuild-->|childProcess|OtherBackend;
+
+   
     go_backend --> |microservice|OtherBackend;
-    
+     nativeBuild-->|childProcess|OtherBackend;
     JI_UI --> go_backend;
     JI_UI --> protobuffctl;
     protobuffctl --> JI_UI;
