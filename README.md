@@ -98,7 +98,7 @@ Frontend -->|webView| code[⚙️ VS-Code]
     JI_UI --> Frontend;
     JI_UI --> |config| OtherBackend;
     
-    subgraph go_backend [💙 go-ServiceMesh]
+    subgraph go_backend [👨‍🔧 go-ServiceMesh]
         gRPC_webProxy --> gRPC_Server;
         gRPC_Server;
     end
