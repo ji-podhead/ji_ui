@@ -84,18 +84,19 @@
 graph TD;
     Frontend["🌐 Frontend (React, Vue, Angular, etc.)"] --> go_backend;
     Frontend -->|webView| webView[🖥️ Browser]
+Frontend -->|webView| code[⚙️ VS-Code]
     go_backend -->|nativeBuild| nativeBuild[📲 App]
 	nativeBuild--> Renderer;
 	webView-->Renderer;
     Frontend-->nativeBuild;
-    nativeBuild-->OtherBackend;
-    go_backend --> OtherBackend;
+    nativeBuild-->|childProcess|OtherBackend;
+    go_backend --> |microservice|OtherBackend;
     
     JI_UI --> go_backend;
     JI_UI --> protobuffctl;
     protobuffctl --> JI_UI;
     JI_UI --> Frontend;
-    JI_UI --> OtherBackend;
+    JI_UI --> |config| OtherBackend;
     
     subgraph go_backend [💙 go-ServiceMesh]
         gRPC_webProxy --> gRPC_Server;
