@@ -78,9 +78,38 @@
         </td>
     </tr>
 </table>
-<p align="center">
-<img  src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui.png?raw=true" width="500" /> <img src="https://github.com/ji-podhead/ji_ui/blob/master/images/database_schema.png?raw=true" height="400" />
-</p>
+
+```mermaid
+graph TD;
+    Frontend["🌐 Frontend (React, Vue, Angular, etc.)"] --> go_backend;
+    Frontend -->|webView| D[<img src='https://static.vecteezy.com/system/resources/thumbnails/007/607/538/small/web-browser-icon-design-illustration-vector.jpg' width='40' height='40' />]
+    go_backend -->|nativeBuild| E[<img src='https://static.vecteezy.com/system/resources/thumbnails/007/607/538/small/web-browser-icon-design-illustration-vector.jpg' width='40' height='40' />]
+
+    go_backend --> OtherBackend1;
+    go_backend --> OtherBackend2;
+    ExtensionAPI --> go_backend;
+    ExtensionAPI --> protobuffctl;
+    ExtensionAPI --> Frontend;
+    ExtensionAPI --> OtherBackend1;
+    ExtensionAPI --> OtherBackend2;
+    subgraph go_backend [💙 go_backend]
+        gRPC_webProxy --> gRPC_Server;
+        gRPC_Server;
+    end
+    subgraph protobuffctl [🏢 protobuffctl]
+        Api;
+        B;
+        FileWatcher;
+        ComponentRegistry;
+        FileWatcher;
+    end
+
+    style ExtensionAPI fill:#f9d71c,stroke:#333,stroke-width:2px
+    style go_backend fill:#039dfc,stroke:#333,stroke-width:2px
+    style protobuffctl fill:#03fc9d,stroke:#333,stroke-width:2px
+
+```
+
 
 ## Api
 - upcomming
