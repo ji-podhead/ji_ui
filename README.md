@@ -2,7 +2,7 @@
   <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true" width="150"  />
 </p>
 
-**The Cross-Platform UI Framework**:
+**The Cross-Platform -&- Cross-Language  UI Framework**:
  - Deploy to web and across numerous platforms using your favourite WebFramework.
  - Eliminate the need for JSON thanks to gRPC.
  -  Support multiple programming languages (in backend, or frontend) thanks to gRPC 
