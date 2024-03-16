@@ -90,13 +90,13 @@ Frontend -->|webView| code[⚙️ VS-Code]
 	webView-->Renderer;
 
    
-    go_backend --> |microservice|OtherBackend;
-     nativeBuild-->|childProcess|OtherBackend;
+    go_backend --> |microservice|Backend;
+     nativeBuild-->|childProcess|Backend;
     JI_UI --> go_backend;
     JI_UI --> protobuffctl;
     protobuffctl --> JI_UI;
     JI_UI --> Frontend;
-    JI_UI --> |config| OtherBackend;
+    JI_UI --> |config|Backend;
     
     subgraph go_backend [🌟 go-ServiceMesh]
         gRPC_webProxy --> gRPC_Server;
