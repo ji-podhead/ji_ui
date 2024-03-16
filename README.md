@@ -82,17 +82,20 @@
 ```mermaid
 graph TD;
     Frontend["🌐 Frontend (React, Vue, Angular, etc.)"] --> go_backend;
-    Frontend -->|webView| D[<img src='https://static.vecteezy.com/system/resources/thumbnails/007/607/538/small/web-browser-icon-design-illustration-vector.jpg' width='40' height='40' />]
-    go_backend -->|nativeBuild| E[<img src='https://static.vecteezy.com/system/resources/thumbnails/007/607/538/small/web-browser-icon-design-illustration-vector.jpg' width='40' height='40' />]
-
-    go_backend --> OtherBackend1;
-    go_backend --> OtherBackend2;
+    Frontend -->|webView| webView[Browser]
+    go_backend -->|nativeBuild| nativeBuild[AppWindow]
+	nativeBuild--> Renderer;
+	webView-->Renderer;
+    Frontend-->nativeBuild;
+    nativeBuild-->OtherBackend;
+    go_backend --> OtherBackend;
+    
     ExtensionAPI --> go_backend;
     ExtensionAPI --> protobuffctl;
     protobuffctl --> ExtensionAPI;
     ExtensionAPI --> Frontend;
-    ExtensionAPI --> OtherBackend1;
-    ExtensionAPI --> OtherBackend2;
+    ExtensionAPI --> OtherBackend;
+    
     subgraph go_backend [💙 go_backend]
         gRPC_webProxy --> gRPC_Server;
         gRPC_Server;
