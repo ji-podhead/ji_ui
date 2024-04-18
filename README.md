@@ -1,6 +1,7 @@
-<p align="center">
-  <img src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true" width="150"  />
-</p>
+
+#  JI_UI <img width ="100" align="right" object-fit="contain" src="https://github.com/ji-soft/ji_ui/blob/master/images/ji_ui_mascot_3.png?raw=true"/>  
+
+ [![npm version](https://img.shields.io/badge/🚧_under_construction_🚧-black)](https://www.npmjs.com/package/protobuffctl)
 
 **The Cross-Platform -&- Cross-Language  UI Framework**:
  - Deploy to web and across numerous platforms using your favourite WebFramework.
