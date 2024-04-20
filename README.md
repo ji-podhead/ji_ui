@@ -86,11 +86,7 @@ graph TD;
     Frontend["🌐 Frontend (React, Vue, Angular, etc.)"] --> go_backend;
     Frontend -->|webView| webView[🖥️ Browser]
 Frontend -->|webView| code[⚙️ VS-Code]
-    Frontend -->|nativeBuild| nativeBuild[📲 App]
-	nativeBuild--> Renderer;
-	webView-->Renderer;
-
-   
+    Frontend -->|nativeBuild| nativeBuild[📲 App] 
     go_backend --> |microservice|Backend;
      nativeBuild-->|childProcess|Backend;
     JI_UI --> go_backend;
@@ -110,9 +106,6 @@ end
 
     subgraph protobuffctl [🗄️ protobuffctl]
         Api;
-        FileWatcher;
-        ComponentRegistry;
-        FileWatcher;
     end
 
     style JI_UI fill:#f9d71c,stroke:#333,stroke-width:2px
